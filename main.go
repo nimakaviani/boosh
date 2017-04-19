@@ -12,7 +12,7 @@ func main() {
 	app := cli.NewApp()
 	app.Name = "boosh"
 	app.Usage = "BOOSH Outer Outer Shell"
-	app.Version = "0.0.1"
+	app.Version = "0.0.1.1"
 
 	app.Commands = []cli.Command{
 		{
